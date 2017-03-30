@@ -1,0 +1,65 @@
+<ion-view title="Currency Converter" >
+  <div class="bar bar-header">
+      <h1 class="title">Currency Converter</h1>
+  </div>
+   
+   <ion-content class="has-header has-footer paddingContent" overflow-scroll="true" padding="true">
+  
+       <ion-tabs class="tabs-positive tabs-icon-top" >
+
+              <ion-tab title="Currency Converter" icon-on="ion-ios-calculator" icon-off="ion-ios-calculator-outline">
+
+                <h6 class="content-base-value">{{valCurr1}} {{currency1.curTitle}} equals </h6>
+
+                <h4>{{valCurr2}} {{currency2.curTitle}} </h4>
+
+                <ion-list>
+                    <div class="row">
+                      <div class="col">
+                        <label class="item item-input">
+                          <input name="valCurr1" type="number" ng-model="valCurr1" ng-change="convert(valCurr1, valCurr2, currency1, currency2)">
+                        </label>
+                      </div>
+                      <div class="col">
+                        <select ng-model ="currency1" ng-options="currency1.curTitle for currency1 in allCurrencies" ng-change="convert(valCurr1, valCurr2, currency1, currency2)">
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col">
+                        <label class="item item-input">
+                          <input name="valCurr2" type="number" ng-model="valCurr2" >
+                        </label>
+                      </div>
+                      <div class="col">
+                        <select ng-model ="currency2" ng-options="currency2.curTitle for currency2 in allCurrencies" ng-change="convert(valCurr1, valCurr2, currency1, currency2)">
+                        </select>
+                      </div>
+                    </div>
+                </ion-list>
+                     <ion-footer-bar class="bar-headerssertive footer-design">
+                      <h5>{{locationDetails.city}} {{locationDetails.country}}</h5>
+                     </ion-footer-bar>
+              </ion-tab>
+
+              <ion-tab title="History" icon-on="ion-ios-clock" icon-off="ion-ios-clock-outline">
+                  <div class="bar bar-header">
+                      <h5 class="title content-base-value">History</h5>
+                  </div>
+                 <ion-content class="has-header" overflow-scroll="true" padding="true">
+                    <ion-list>
+                      <ion-item class="item-list-font" ng-repeat="item in listValueArr">
+                       <strong>{{item.baseValue}} {{item.convertedValue}}</strong> {{item.date}}
+                      </ion-item>
+                    </ion-list>
+                  </ion-content >
+              </ion-tab>
+
+      </ion-tabs>
+
+
+
+   </ion-content>
+  
+</ion-view>

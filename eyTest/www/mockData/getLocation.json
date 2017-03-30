@@ -1,0 +1,610 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "33A",
+               "short_name" : "33A",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "13th Cross Road",
+               "short_name" : "13th Cross Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Chikka Madivala",
+               "short_name" : "Chikka Madivala",
+               "types" : [ "political", "sublocality", "sublocality_level_3" ]
+            },
+            {
+               "long_name" : "1st Stage",
+               "short_name" : "1st Stage",
+               "types" : [ "political", "sublocality", "sublocality_level_2" ]
+            },
+            {
+               "long_name" : "BTM Layout",
+               "short_name" : "BTM Layout",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "560068",
+               "short_name" : "560068",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "33A, 13th Cross Rd, Chikka Madivala, 1st Stage, BTM Layout, Bengaluru, Karnataka 560068, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.9217804,
+               "lng" : 77.6141574
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.9231293802915,
+                  "lng" : 77.61550638029151
+               },
+               "southwest" : {
+                  "lat" : 12.9204314197085,
+                  "lng" : 77.61280841970849
+               }
+            }
+         },
+         "place_id" : "ChIJa-dzt_gUrjsRmTstc-mFwyE",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "K.S.E.B",
+               "short_name" : "K.S.E.B",
+               "types" : [ "establishment", "point_of_interest", "premise" ]
+            },
+            {
+               "long_name" : "Chikka Madivala",
+               "short_name" : "Chikka Madivala",
+               "types" : [ "political", "sublocality", "sublocality_level_3" ]
+            },
+            {
+               "long_name" : "1st Stage",
+               "short_name" : "1st Stage",
+               "types" : [ "political", "sublocality", "sublocality_level_2" ]
+            },
+            {
+               "long_name" : "BTM Layout",
+               "short_name" : "BTM Layout",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "560068",
+               "short_name" : "560068",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "K.S.E.B, 20th Main Road, Chikka Madivala, 1st Stage, BTM Layout, Bengaluru, Karnataka 560068, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.9219198,
+               "lng" : 77.61398179999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.9232687802915,
+                  "lng" : 77.6153307802915
+               },
+               "southwest" : {
+                  "lat" : 12.9205708197085,
+                  "lng" : 77.61263281970849
+               }
+            }
+         },
+         "place_id" : "ChIJP5w5sfgUrjsRY-B_Tc5dweA",
+         "types" : [ "establishment", "point_of_interest", "premise" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Chikka Madivala",
+               "short_name" : "Chikka Madivala",
+               "types" : [ "political", "sublocality", "sublocality_level_3" ]
+            },
+            {
+               "long_name" : "1st Stage",
+               "short_name" : "1st Stage",
+               "types" : [ "political", "sublocality", "sublocality_level_2" ]
+            },
+            {
+               "long_name" : "BTM Layout",
+               "short_name" : "BTM Layout",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "560068",
+               "short_name" : "560068",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Chikka Madivala, 1st Stage, BTM Layout, Bengaluru, Karnataka 560068, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 12.923104,
+                  "lng" : 77.6183719
+               },
+               "southwest" : {
+                  "lat" : 12.9193331,
+                  "lng" : 77.61292190000002
+               }
+            },
+            "location" : {
+               "lat" : 12.920887,
+               "lng" : 77.6156642
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.923104,
+                  "lng" : 77.6183719
+               },
+               "southwest" : {
+                  "lat" : 12.9193331,
+                  "lng" : 77.61292190000002
+               }
+            }
+         },
+         "place_id" : "ChIJKZZ58vgUrjsRZTCxe6jivmw",
+         "types" : [ "political", "sublocality", "sublocality_level_3" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "BTM Layout 1",
+               "short_name" : "BTM Layout 1",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "BTM Layout 1, Bengaluru, Karnataka, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 12.9222248,
+                  "lng" : 77.6220471
+               },
+               "southwest" : {
+                  "lat" : 12.9164593,
+                  "lng" : 77.6001481
+               }
+            },
+            "location" : {
+               "lat" : 12.9185973,
+               "lng" : 77.6120835
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.9222248,
+                  "lng" : 77.6220471
+               },
+               "southwest" : {
+                  "lat" : 12.9164593,
+                  "lng" : 77.6001481
+               }
+            }
+         },
+         "place_id" : "ChIJP1IV-v4UrjsRs2Op8X-Qjv0",
+         "types" : [ "political", "sublocality", "sublocality_level_1" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "1st Stage",
+               "short_name" : "1st Stage",
+               "types" : [ "political", "sublocality", "sublocality_level_2" ]
+            },
+            {
+               "long_name" : "BTM Layout 1",
+               "short_name" : "BTM Layout 1",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "1st Stage, BTM Layout 1, Bengaluru, Karnataka, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 12.9278549,
+                  "lng" : 77.622936
+               },
+               "southwest" : {
+                  "lat" : 12.9162429,
+                  "lng" : 77.604771
+               }
+            },
+            "location" : {
+               "lat" : 12.9199409,
+               "lng" : 77.61065119999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.9278549,
+                  "lng" : 77.622936
+               },
+               "southwest" : {
+                  "lat" : 12.9162429,
+                  "lng" : 77.604771
+               }
+            }
+         },
+         "place_id" : "ChIJL8Pvb_8UrjsRYDx2WdasoNc",
+         "types" : [ "political", "sublocality", "sublocality_level_2" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "BTM Layout",
+               "short_name" : "BTM Layout",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "BTM Layout, Bengaluru, Karnataka, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 12.9278549,
+                  "lng" : 77.62535009999999
+               },
+               "southwest" : {
+                  "lat" : 12.8991899,
+                  "lng" : 77.59983
+               }
+            },
+            "location" : {
+               "lat" : 12.9165757,
+               "lng" : 77.6101163
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.9278549,
+                  "lng" : 77.62535009999999
+               },
+               "southwest" : {
+                  "lat" : 12.8991899,
+                  "lng" : 77.59983
+               }
+            }
+         },
+         "place_id" : "ChIJMTCpkfwUrjsRP9zLdiXmr_A",
+         "types" : [ "political", "sublocality", "sublocality_level_1" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bengaluru, Karnataka, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 13.173706,
+                  "lng" : 77.8826809
+               },
+               "southwest" : {
+                  "lat" : 12.7342888,
+                  "lng" : 77.3791981
+               }
+            },
+            "location" : {
+               "lat" : 12.9715987,
+               "lng" : 77.5945627
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.173706,
+                  "lng" : 77.8826809
+               },
+               "southwest" : {
+                  "lat" : 12.7342888,
+                  "lng" : 77.3791981
+               }
+            }
+         },
+         "place_id" : "ChIJbU60yXAWrjsR4E9-UejD3_g",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "560068",
+               "short_name" : "560068",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bengaluru, Karnataka 560068, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 12.9278061,
+                  "lng" : 77.6740988
+               },
+               "southwest" : {
+                  "lat" : 12.862505,
+                  "lng" : 77.61089989999999
+               }
+            },
+            "location" : {
+               "lat" : 12.8892684,
+               "lng" : 77.63991
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.9278061,
+                  "lng" : 77.6740988
+               },
+               "southwest" : {
+                  "lat" : 12.862505,
+                  "lng" : 77.61089989999999
+               }
+            }
+         },
+         "place_id" : "ChIJv17Us6QUrjsRDO3mj6c0Hhk",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bangalore Urban, Karnataka, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 13.22497,
+                  "lng" : 77.83501
+               },
+               "southwest" : {
+                  "lat" : 12.65785,
+                  "lng" : 77.32867
+               }
+            },
+            "location" : {
+               "lat" : 12.9700247,
+               "lng" : 77.65361249999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.22497,
+                  "lng" : 77.83501
+               },
+               "southwest" : {
+                  "lat" : 12.65785,
+                  "lng" : 77.32867
+               }
+            }
+         },
+         "place_id" : "ChIJ_Q7NCkQWrjsRn2yP7O-T8Fg",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Karnataka, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 18.4411689,
+                  "lng" : 78.5860101
+               },
+               "southwest" : {
+                  "lat" : 11.593352,
+                  "lng" : 74.04960609999999
+               }
+            },
+            "location" : {
+               "lat" : 15.3172775,
+               "lng" : 75.7138884
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 18.4411689,
+                  "lng" : 78.5860101
+               },
+               "southwest" : {
+                  "lat" : 11.593352,
+                  "lng" : 74.09289860000001
+               }
+            }
+         },
+         "place_id" : "ChIJj0i_N0xaozsR1Xx10YzS8UE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
