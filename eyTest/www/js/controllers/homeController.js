@@ -47,32 +47,42 @@ eyTest.controller('HomeCtrl' ,function (util, $scope, $location, AppService, App
   }
 
 
-  $scope.getLocation = function(){
+  $scope.getLocation = function() {
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(function (position) {
-          var lat = position.coords.latitude;
-          var long = position.coords.longitude;
-          console.log("Lat:"+lat + " Long:"+long);
 
-         // Callback method for getLocation service method
-         var onResponse = function (response) {
-                if(typeof response == 'undefined' || response == null) {
-                    console.log("onResponse error");               
-                } else {         
-                   console.log("onResponse success");
-                   $ionicLoading.hide();
-                   $scope.locationDetails = {"city":response.results[0].address_components[5].long_name, "country": response.results[0].address_components[8].long_name}
-                   console.log($scope.locationDetails);
+        var onSuccess = function(position) {            
+            var lat = position.coords.latitude;
+            var long = position.coords.longitude;
+            
+            // Callback method for getLocation service method
+            var onResponse = function(response) {
+                if (typeof response == 'undefined' || response == null) {
+                    console.log("onResponse error");
+                } else {
+                    console.log("onResponse success");
+                    $ionicLoading.hide();                    
+                    $scope.locationDetails = response.results[3].formatted_address;                                        
                 }
-          }
-          AppService.getLocation(lat, long, onResponse, onResponse);
+            }
+            AppService.getLocation(lat, long, onResponse, onResponse);
             $ionicLoading.show({
-              template: '<p>Fetching locationDetails...</p><ion-spinner></ion-spinner>'
+                template: '<p>Fetching locationDetails...</p><ion-spinner></ion-spinner>'
             });
-      });
-    } 
-      
-  }
+        }
+
+        var onFailure = function(error) {
+            console.log(error);
+        }
+
+        var options = {
+            timeout: 30000,
+            enableHighAccuracy: false            
+        };
+
+        navigator.geolocation.getCurrentPosition(onSuccess, onFailure, options);
+    }
+
+}
   
 
   /*
