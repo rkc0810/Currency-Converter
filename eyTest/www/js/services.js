@@ -1,4 +1,4 @@
-eyTest.factory('AppService', function($http,AppConst,AppConfig){
+eyTest.factory('AppService',[ '$http','AppConst','AppConfig', function($http,AppConst,AppConfig){
 	
 	var service = {};
     
@@ -74,4 +74,4 @@ eyTest.factory('AppService', function($http,AppConst,AppConfig){
     };
 
 	return service;
-});
+}]);

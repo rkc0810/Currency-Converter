@@ -3,7 +3,7 @@
  * @copyright
  * @author
  */
-eyTest.config(function($stateProvider, $urlRouterProvider) {
+eyTest.config(['$stateProvider','$urlRouterProvider',function($stateProvider, $urlRouterProvider) {
   $stateProvider.state('home', {
     url: '/home',
     cache: false,
@@ -12,4 +12,4 @@ eyTest.config(function($stateProvider, $urlRouterProvider) {
   }) 
 
   $urlRouterProvider.otherwise('/home');
-})
+}])

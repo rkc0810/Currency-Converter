@@ -1,5 +1,5 @@
 'use strict';
-eyTest.controller('HomeCtrl' ,function (util, $scope, $location, AppService, AppConst,  $localStorage, $timeout, $ionicLoading) {
+eyTest.controller('HomeCtrl' ,['util', '$scope', '$location', 'AppService', 'AppConst',  '$localStorage', '$timeout', '$ionicLoading',function (util, $scope, $location, AppService, AppConst,  $localStorage, $timeout, $ionicLoading) {
 
    $timeout(function(){
        $scope.getLocation();
@@ -138,4 +138,4 @@ eyTest.controller('HomeCtrl' ,function (util, $scope, $location, AppService, App
     }
   }
  	
-})
+}])

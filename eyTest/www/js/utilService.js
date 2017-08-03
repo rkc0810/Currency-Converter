@@ -1,5 +1,5 @@
 'use strict';
-eyTest.factory('util',function(AppConfig,$ionicPopup){
+eyTest.factory('util',['AppConfig','$ionicPopup',function(AppConfig,$ionicPopup){
 	 return {
 	        /*
 	         * @method to show confirmation dialog
@@ -30,4 +30,4 @@ eyTest.factory('util',function(AppConfig,$ionicPopup){
                 alertPopup.then(responseCallback);
 	        }	        
 	    };
-});
+}]);
